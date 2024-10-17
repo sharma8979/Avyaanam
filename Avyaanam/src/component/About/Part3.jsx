@@ -60,7 +60,7 @@ function Header() {
               <h1 className='text-[2vw]'>Years</h1>
             </div>
             <div className='flex justify-center font-bold items-center text-6xl'>
-              <h1 >--></h1>
+              <h1> "Arrow</h1>
             </div>
             <div className="flex flex-col items-center">
               <h1 className='text-[5vw]'>80</h1>

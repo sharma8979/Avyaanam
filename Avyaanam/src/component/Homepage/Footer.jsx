@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <footer className="new_footer_area  bg-gray-100">
       <div className="new_footer_top flex relative overflow-x-hidden py-32">
-        <div className="container mx-auto">
+        <div className="container  mx-auto">
           <div className="row">
             {/* Get in Touch Section */}
             <div className="col-lg-3 flex col-md-6 mb-8">
               <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s">
                 <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                <p>Don’t miss any updates of our new templates and extensions!</p>
+                <p>Don't miss any updates of our new templates and extensions!</p>
                 <form action="#" className="f_subscribe_two mailchimp" method="post" noValidate>
                   <input
                     type="text"
