@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="new_footer_area  bg-gray-100">
-      <div className="new_footer_top flex relative overflow-x-hidden py-32">
-        <div className="container  mx-auto">
+      <div className="new_footer_top flex relative overflow-x-hidden py-20">
+        <div className="container mx-auto">
           <div className="row">
             {/* Get in Touch Section */}
-            <div className="col-lg-3 flex col-md-6 mb-8">
+            <div className="col-lg-3 flex col-md-6 mb-20 items-center justify-center ">
               <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s">
                 <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
                 <p>Don't miss any updates of our new templates and extensions!</p>
@@ -26,9 +26,10 @@ const Footer = () => {
                 </form>
               </div>
             </div>
+            <div className='flex justify-around'>
 
             {/* Download Section */}
-            <div className="col-lg-3 col-md-6 mb-8">
+            <div className="col-lg-3 col-md-6 mb-8 ">
               <div className="f_widget about-widget pl-4 wow fadeInLeft" data-wow-delay="0.4s">
                 <h3 className="f-title f_600 t_color f_size_18">Download</h3>
                 <ul className="list-unstyled f_list">
@@ -65,6 +66,7 @@ const Footer = () => {
                   ))}
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
