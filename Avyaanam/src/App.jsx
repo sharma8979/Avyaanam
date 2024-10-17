@@ -6,7 +6,7 @@ import Courses from './component/Courses/courses';
 import About from './component/About/About'; // Assuming you have an About component
 import { Navbar } from './component/Homepage/Navbar';
 import Footer from './component/Homepage/Footer';
-import contactus from './component/Contact/Contactus';
+import ContactUs from './component/Contact/ContactUs';
 
 const router = createBrowserRouter([
   
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/contact-us',
-    element: <contactus />,
+    element: <ContactUs />,
   },
   {
     path: '/about-us',
