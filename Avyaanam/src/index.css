@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@keyframes myfirst {
+    0% {
+      left: -25%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  /* Include any additional styles that aren't covered by Tailwind */
+  
